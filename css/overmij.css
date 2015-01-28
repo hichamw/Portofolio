@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-image: url('http://www.designbolts.com/wp-content/uploads/2012/11/Black-wood-photoshop-pattern-for-website-background.jpg');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.25;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #a0192d;
+}
+
+a:hover, a:active {
+	background-color: #a0192d;
+	color: #FFF;
+	transition:0.75s;
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+
+}
+
+.headerimg {
+	content: url("../image/1332x200.gif");
+}
+
+.mainHeader img {
+	width: 100%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #000;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #565656;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;	
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #a0192d;
+	text-shadow: none;
+}
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width:100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 2% 3%;
+	padding-bottom: 28%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+}
+.topcontent img {
+	width: 10%;
+	height: auto;
+	float: left;
+	padding-right: 1%;
+	padding-top: 1%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-right: 1%;
+}
+
+.push {
+	margin-left: 12%;
+}
+.topcontent p {
+	width: 60%;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float:left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body{
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.headerimg {
+		content: url("../image/logo.gif");
+	}
+
+	.mainHeader img {
+		width: 100%;
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul{
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;	
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width:100%;
+		float: left;
+		margin-top: 2%;
+	}
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		margin-top: 3%;
+		margin-bottom: 4%;
+		padding-bottom: 2%;
+	}
+	.topcontent img {
+		width: 50%;
+		height: auto;
+	}
+	.push {
+		margin-left: 0%;
+	}
+	.topcontent p {
+		width: 100%;
+	}
+
+	.bottomcontent {
+		margin-top: 3%;
+	}
+}
